@@ -17,7 +17,7 @@ The data presented itself with ample opportunity for cleaning. There were large 
 
 
 ## EDA
-Our EDA overturned some of our prior assumptions. We learned that individual contributions played an insignificant role in the outcome of House and Senate races. Additionally, candidate contributions to their own campaigns played the most significant role in our best model. On the other hand, contributions that stemmed from political parties played a significant role in the outcome of elections. Moreover, as expected those running for Senate tended to receive more money than those who ran for Congress. 
+Our EDA overturned some of our prior assumptions. We learned that individual contributions played an insignificant role in the outcome of House and Senate races. On the other hand, contributions that stemmed from other committees played a significant role in the outcome of elections along with incumbent status. Moreover, as expected those running for Senate tended to receive more money than those who ran for Congress. 
 
 
 ![EDA](https://raw.githubusercontent.com/ntsegaw/campaign_predictions/main/images/Net_Cont.png)
