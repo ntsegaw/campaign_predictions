@@ -4,7 +4,7 @@
 To infer which factors were most influential in determining the outcomes of the 2015-16 American House and Senate races.
 
 
-## Steps
+##Steps
 
 Source
 
@@ -28,18 +28,18 @@ Our EDA overturned some of our prior assumptions. We learned that individual con
 For our baseline model, we ran a dummy classifier which returned a score of 0.72. 
 
 
-Preprocessing 
+##Preprocessing 
 
 We created a matrix of features, a target variable, and a list of features to be used in the model. We then defined our categorical and numerical columns and after that created pipelines for each. After that, we fitted and transformed our training data in the numerical columns. We created a pipeline for our features and ran onehotencoder to create dummy columns for our categorical features. 
 
 
 
 
-Models (Logistic Regression, Random Forest, XGBoost)
+##Models (Logistic Regression, Random Forest, XGBoost)
 
 For our first model, we chose to use a pipeline and grid-search to run logistic regression. Our best parameters returned an F1 score of 0.9 and our AUC was equal to 0.98. For our next model, we used random forest. Again, we used a pipeline with grid-search and our best parameters returned an F1 score of 0.93. Lastly, we ran XGBoost with a pipeline and grid-search which returned the same F1 score as random forest. The AUC was 0.99 for both of them. 
 
-![AUC IMAGE](URLLLLLLL)
+![AUC IMAGE](https://github.com/ntsegaw/campaign_predictions/blob/main/images/RF.png)
 
 ## Author
 [Adam Cumurcu](https://github.com/AdamCumurcu)
